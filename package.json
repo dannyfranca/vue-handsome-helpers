@@ -1,0 +1,31 @@
+{
+  "name": "@dannyfranca/vue-handsome-helpers",
+  "version": "0.1.0",
+  "description": "js-handsome-helpers to Vue Global Scope",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dannyfranca/vue-handsome-helpers"
+  },
+  "main": "dist/index.js",
+  "scripts": {},
+  "files": [
+    "README.md",
+    "LICENCE",
+    "dist/"
+  ],
+  "author": {
+    "name": "Danny França",
+    "email": "contato@dannyfranca.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dannyfranca/vue-handsome-helpers/issues"
+  },
+  "homepage": "https://github.com/dannyfranca/vue-handsome-helpers#readme",
+  "dependencies": {
+    "@dannyfranca/handsome-helpers": "^0.1.*",
+    "@types/glob": "^7.1.1",
+    "typescript": "^3.5.1",
+    "vue": "^2.6.10"
+  }
+}
