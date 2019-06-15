@@ -1,33 +1,38 @@
 {
   "name": "@dannyfranca/vue-handsome-helpers",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "js-handsome-helpers to Vue Global Scope",
-  "repository": "https://github.com/dannyfranca/vue-handsome-helpers",
-  "main": "lib/index.js",
-  "types": "lib/index.d.ts",
-  "scripts": {
-    "type-check": "tsc --noEmit",
-    "type-check:watch": "npm run type-check -- --watch",
-    "build": "npm run build:types && npm run build:js",
-    "build:types": "tsc --emitDeclarationOnly",
-    "build:js": "babel src --out-dir lib --extensions \".ts,.tsx\" --source-maps inline"
-  },
-  "files": [
-    "README.md",
-    "LICENCE",
-    "lib/"
-  ],
+  "license": "MIT",
   "author": {
     "name": "Danny França",
     "email": "contato@dannyfranca.com"
   },
-  "license": "MIT",
+  "contributors": [
+    {
+      "name": "Danny França <contato@dannyfranca.com>"
+    }
+  ],
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "repository": "https://github.com/dannyfranca/vue-handsome-helpers",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "jest",
+    "build": "babel src --out-dir lib --extensions \".js,.jsx\" --source-maps inline"
+  },
+  "files": [
+    "README.md",
+    "LICENSE",
+    "lib/"
+  ],
   "bugs": {
     "url": "https://github.com/dannyfranca/vue-handsome-helpers/issues"
   },
   "homepage": "https://github.com/dannyfranca/vue-handsome-helpers#readme",
   "dependencies": {
-    "@dannyfranca/handsome-helpers": "^0.2.*",
+    "@dannyfranca/handsome-helpers": "^0.3.*",
     "vue": "^2.6.10"
   },
   "devDependencies": {
@@ -37,8 +42,13 @@
     "@babel/plugin-proposal-object-rest-spread": "^7.4.0",
     "@babel/preset-env": "^7.4.1",
     "@babel/preset-typescript": "^7.3.3",
-    "@types/glob": "^7.1.1",
-    "@types/node": "^12.0.8",
-    "typescript": "^3.3.3"
+    "codecov": "latest",
+    "husky": "latest",
+    "jest": "latest",
+    "jest-extended": "latest",
+    "jsdom": "^15.1.1",
+    "jsdom-global": "^3.0.2",
+    "vue-jest": "^3.0.4",
+    "vue-template-compiler": "^2.6.10"
   }
 }
