@@ -22,11 +22,6 @@ jobs:
           paths:
             - "node_modules"
 
-      # Lint
-      - run:
-          name: Type Check
-          command: yarn type-check
-
       # Tests
       - run:
           name: Tests
