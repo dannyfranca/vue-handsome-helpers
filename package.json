@@ -1,6 +1,6 @@
 {
   "name": "@dannyfranca/vue-handsome-helpers",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "js-handsome-helpers to Vue Global Scope",
   "license": "MIT",
   "author": {
@@ -36,7 +36,7 @@
   },
   "homepage": "https://github.com/dannyfranca/vue-handsome-helpers#readme",
   "dependencies": {
-    "@dannyfranca/handsome-helpers": "^0.3.*",
+    "@dannyfranca/handsome-helpers": "^0.4.*",
     "vue": "^2.6.10"
   },
   "devDependencies": {
