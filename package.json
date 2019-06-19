@@ -58,10 +58,10 @@
     "husky": "latest",
     "jest": "latest",
     "jest-extended": "latest",
-    "jsdom": "^15.1.1",
-    "jsdom-global": "^3.0.2",
-    "poi": "^12.6.10",
+    "jsdom": "^15.*",
+    "jsdom-global": "^3.*",
+    "poi": "^12.*",
     "vue-jest": "latest",
-    "vue-template-compiler": "^2.6.10"
+    "vue-template-compiler": "^2.*"
   }
 }
