@@ -26,9 +26,11 @@ import helpers from '@dannyfranca/vue-handsome-helpers'
 Vue.use(helpers)
 ```
 ```js
-// to change scope name
-
+// change scope name
 Vue.use(helpers, {scope: 'customName'})
+
+// use not proxyed version
+Vue.use(helpers, {proxy: false})
 ```
 
 ### Helpers will be available in global instance
