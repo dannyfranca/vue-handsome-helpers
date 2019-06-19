@@ -37,7 +37,7 @@
   "homepage": "https://github.com/dannyfranca/vue-handsome-helpers#readme",
   "dependencies": {
     "@dannyfranca/handsome-helpers": "^0.4.*",
-    "vue": "^2.6.10"
+    "vue": "^2.*"
   },
   "devDependencies": {
     "@babel/core": "latest",
