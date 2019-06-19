@@ -61,7 +61,7 @@
     "jsdom": "^15.1.1",
     "jsdom-global": "^3.0.2",
     "poi": "^12.6.10",
-    "vue-jest": "^3.0.4",
+    "vue-jest": "latest",
     "vue-template-compiler": "^2.6.10"
   }
 }
