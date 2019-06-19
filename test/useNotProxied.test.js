@@ -5,7 +5,7 @@ let vm
 
 // Install Plugin and mount instance
 beforeAll(async () => {
-  Vue.use(Plugin, { proxy: true })
+  Vue.use(Plugin, { proxy: false })
   const template = `<div>{{message}}</div>`
   vm = new Vue({
     data: { message: null },
